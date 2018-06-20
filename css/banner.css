@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	/* 去掉A标签下换线 */
+	text-decoration: none;
+}
+.banner{
+	width: 1226px;
+	height: 460px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+.imgbox{
+	width: 1226px;
+	height: 460px;
+}
+.imgbox li{
+	position: absolute;
+	left: 1226px;
+	top: 0;
+}
+.imgbox li:first-child{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.imgbox li a{
+	display: block;
+	width: 1226px;
+	height: 460px;
+}
+.imgbox li img{
+	width: 1226px;
+}
+.btn{
+	width: 90px;
+	height: 10px;
+	position: absolute;
+	right: 35px;
+	bottom: 25px;
+	display: flex;
+	justify-content: space-between;
+	z-index: 20;
+}
+.btn .hot{
+	background: #fff;
+}
+.btn li{
+	width: 6px;
+	height: 6px;
+	background-color: rgba(0, 0, 0, 0.6);
+	border: 2px solid #9b3734;
+	border-radius: 50%;
+}
+.bannerturn{
+	display: block;
+	width: 41px;
+	height: 69px;
+	background:url(../img/icon-slides.png) no-repeat -83px 0 ;
+	position: absolute;
+	left: 234px;
+	/* 垂直居中 */
+	top:0;
+	bottom:0;
+	margin-top:auto;
+	margin-bottom:auto;
+	z-index: 50;
+}
+.bannerturn:hover{
+	background:url(../img/icon-slides.png) no-repeat 0 0 ;
+}
+.bannerturn1{
+	display: block;
+	width: 41px;
+	height: 69px;
+	background:url(../img/icon-slides.png) no-repeat -126px 0 ;
+	position: absolute;
+	right: 0;
+	/* 垂直居中 */
+	top:0;
+	bottom:0;
+	margin-top:auto;
+	margin-bottom:auto;
+	z-index: 50;
+}
+.bannerturn1:hover{
+	background:url(../img/icon-slides.png) no-repeat -42px 0 ;
+
+}
